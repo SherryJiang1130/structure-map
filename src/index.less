@@ -1,0 +1,56 @@
+ul {
+  padding: 0px;
+}
+li {
+  list-style: none;
+  line-height: 32px;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  .content {
+    display: flex;
+    .side {
+      width: 8%;
+      height: 100vh;
+      background: #294e80;
+      color: white;
+      .logo {
+        height: 50px;
+      }
+    }
+    .hidden {
+      visibility: hidden;
+      position: absolute;
+      top: 0px;
+      border: 1px solid gainsboro;
+      padding: 5px;
+      background: gainsboro;
+      font-size: 10px;
+     
+      li {
+        line-height: 20px;
+        text-align: left;
+        a {
+          color: #294e80;
+        }
+      }
+    }
+    .mainContent {
+      flex: 1;
+      box-sizing: border-box;
+      padding: 10px;
+      height: 100vh;
+      svg{
+        height: 100%;
+        width: 100%
+      }
+    }
+  }
+}
