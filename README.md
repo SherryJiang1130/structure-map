@@ -1,4 +1,4 @@
-# mind Tree
+# structure-map
 一个基于[Raphael.js](http://dmitrybaranovskiy.github.io/raphael/)图形库实现的结构图
 
 ## 开始
